@@ -1,0 +1,79 @@
+03:56:03:892  INFO 21444 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.25 on LAPTOP-PJMO0GD8 with PID 21444 (E:\docker资料\资料\hmall\hm-service\target\classes started by Lenovo in E:\docker资料\资料\hmall)
+03:56:03:898 DEBUG 21444 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+03:56:03:898  INFO 21444 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+03:56:04:455  INFO 21444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+03:56:04:455  INFO 21444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+03:56:04:477  INFO 21444 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+03:56:04:776  INFO 21444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+03:56:04:782  INFO 21444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+03:56:04:782  INFO 21444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+03:56:04:871  INFO 21444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+03:56:04:872  INFO 21444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 935 ms
+03:56:06:192  INFO 21444 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+03:56:06:406  WARN 21444 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+03:56:06:422  INFO 21444 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+03:56:06:428  INFO 21444 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+03:56:06:440 ERROR 21444 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+04:34:52:291  INFO 8840 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.25 on LAPTOP-PJMO0GD8 with PID 8840 (E:\docker资料\资料\hmall\hm-service\target\classes started by Lenovo in E:\docker资料\资料\hmall)
+04:34:52:292 DEBUG 8840 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+04:34:52:293  INFO 8840 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+04:34:53:046  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+04:34:53:047  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+04:34:53:070  INFO 8840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+04:34:53:395  INFO 8840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+04:34:53:400  INFO 8840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+04:34:53:400  INFO 8840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+04:34:53:490  INFO 8840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+04:34:53:490  INFO 8840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1154 ms
+04:34:55:274  INFO 8840 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+04:34:55:565  WARN 8840 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+04:34:55:588  INFO 8840 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+04:34:55:598  INFO 8840 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+04:34:55:610 ERROR 8840 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+06:10:35:454  INFO 6932 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.25 on LAPTOP-PJMO0GD8 with PID 6932 (E:\docker资料\资料\hmall\hm-service\target\classes started by Lenovo in E:\docker资料\资料\hmall)
+06:10:35:455 DEBUG 6932 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+06:10:35:456  INFO 6932 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+06:10:36:129  INFO 6932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+06:10:36:131  INFO 6932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+06:10:36:154  INFO 6932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+06:10:36:526  INFO 6932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+06:10:36:532  INFO 6932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+06:10:36:532  INFO 6932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+06:10:36:641  INFO 6932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+06:10:36:641  INFO 6932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1149 ms
+06:10:38:869  INFO 6932 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+06:10:39:147  INFO 6932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+06:10:39:147  INFO 6932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+06:10:39:149  INFO 6932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+06:10:39:177  INFO 6932 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+06:10:39:338  INFO 6932 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.164 seconds (JVM running for 5.023)
